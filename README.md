@@ -14,6 +14,7 @@ The utilities are very much a work in progress right now. They include:
 * rezak.py: cuts out the first N seconds of the recording, while preserving setup of stops etc
 * slower.py: very simple tempo changer that can only make things N times slower. Intended for analysis purposes. Will likely be removed.
 * tempochange.py: an actual tempo changer. Changes the tempo to a given percentage, either for the entire recording or from a start position or from a start position to an end position. 
+* visualize.py: creates an ASCII "visualization" which is kinda workable in the absence of a proper graphical piano roll. The timeline is vertical. Every line is 50 ms, or more if no notes change in the period. Only actual notes are visualized, other MIDI data like stop changes is ignored. I use visualization to find problems. then make changes by editing the MIDI text representation directly.
 
 MIT License. Disclaimer: while Misha is a Red Hat employee this is not Red Hat code.
 
