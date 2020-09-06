@@ -2,6 +2,8 @@
 
 This is a set of utilities for mangling MIDI recordings for GrandOrgue. They are written in Python 3.
 
+By Misha Ramendik mr@ramendik.ru
+
 The do not work on MIDI directly, instead they use the text format from MidiComp https://github.com/markc/midicomp
 
 The utilities are very much a work in progress right now. They include:
